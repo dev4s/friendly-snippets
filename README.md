@@ -1,3 +1,6 @@
+This repo contains autohotkey snippets that are WIP
+
+----
 # Friendly Snippets
 
 Snippets collection for a set of different programming languages.
