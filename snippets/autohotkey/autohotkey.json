@@ -5,12 +5,12 @@
             "/**",
             " * ${1:What it does}.",
             " *",
-            " * @param ${3:name} - ${4:Parameter description.}",
-            " * @returns ${2:Type and description of the returned object.}",
+            " * @param {${4:type}} ${3:name} - ${5:Parameter description.}",
+            " * @return ${2:Type and description of the returned object.}",
             " *",
             " * @example",
             " * ```",
-            " * ${5:Write me later.}$0",
+            " * ${6:Write me later.}$0",
             " * ```",
             " */"
         ],
@@ -493,13 +493,6 @@
             "@requires ${1:moduleName}$0"
         ],
         "description": "Indicates a required module."
-    },
-    "returns": {
-        "prefix": "@returns",
-        "body": [
-            "@returns ${1:type} ${2:description}$0"
-        ],
-        "description": "Documents the value a function returns. Synonysm of @return."
     },
     "return": {
         "prefix": "@return",
