@@ -269,12 +269,7 @@
     "#guard": {
       "prefix": "#guard",
       "body": [
-        "#ifndef INCLUDE_${TM_DIRECTORY/(.*[\\\/])*(.*)/${2:/upcase}/}_${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_${TM_FILENAME/.*\.(.*)/${1:/upcase}/}_",
-        "#define INCLUDE_${TM_DIRECTORY/(.*[\\\/])*(.*)/${2:/upcase}/}_${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_${TM_FILENAME/.*\.(.*)/${1:/upcase}/}_",
-        "",
-        "$0",
-        "",
-        "#endif  // INCLUDE_${TM_DIRECTORY/(.*[\\\/])*(.*)/${2:/upcase}/}_${TM_FILENAME_BASE/(.*)/${1:/upcase}/}_${TM_FILENAME/.*\.(.*)/${1:/upcase}/}_"
+"#ifndef INCLUDE_${TM_DIRECTORY}_",
       ],
       "description": "header guard. format :\n\tINCLUDE_<dirname>_<filename>_<extension>_"
     },
